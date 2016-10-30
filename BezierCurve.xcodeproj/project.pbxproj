@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB63569F1DBFDE5A0029EDEC /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB63569E1DBFDE5A0029EDEC /* Path.swift */; };
+		EB6DACDB1DB9BAB700C2FEC7 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DACDA1DB9BAB700C2FEC7 /* BezierPath.swift */; };
+		EB6DACDE1DB9C11B00C2FEC7 /* UIColor+Random Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6DACDD1DB9C11B00C2FEC7 /* UIColor+Random Color.swift */; };
 		EBDE53AF1DB8C89900131E02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE53AE1DB8C89900131E02 /* AppDelegate.swift */; };
-		EBDE53B11DB8C89900131E02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE53B01DB8C89900131E02 /* ViewController.swift */; };
-		EBDE53B41DB8C89900131E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDE53B21DB8C89900131E02 /* Main.storyboard */; };
 		EBDE53B61DB8C89900131E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDE53B51DB8C89900131E02 /* Assets.xcassets */; };
 		EBDE53B91DB8C89900131E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDE53B71DB8C89900131E02 /* LaunchScreen.storyboard */; };
+		EBDE53C41DB8C9B800131E02 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE53C21DB8C9B800131E02 /* MainViewController.swift */; };
+		EBDE53C51DB8C9B800131E02 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBDE53C31DB8C9B800131E02 /* MainViewController.xib */; };
+		EBDE53C91DB8D12100131E02 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE53C81DB8D12100131E02 /* ShapeView.swift */; };
+		EBDE53CD1DB8F0A100131E02 /* PointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDE53CC1DB8F0A100131E02 /* PointView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB63569E1DBFDE5A0029EDEC /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Path.swift; path = Helper/Path.swift; sourceTree = "<group>"; };
+		EB6DACDA1DB9BAB700C2FEC7 /* BezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BezierPath.swift; path = Helper/BezierPath.swift; sourceTree = "<group>"; };
+		EB6DACDD1DB9C11B00C2FEC7 /* UIColor+Random Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Random Color.swift"; path = "Extension/UIColor+Random Color.swift"; sourceTree = "<group>"; };
 		EBDE53AB1DB8C89900131E02 /* BezierCurve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierCurve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDE53AE1DB8C89900131E02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBDE53B01DB8C89900131E02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EBDE53B31DB8C89900131E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBDE53B51DB8C89900131E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBDE53B81DB8C89900131E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBDE53BA1DB8C89900131E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDE53C21DB8C9B800131E02 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ViewControllers/Main/MainViewController.swift; sourceTree = "<group>"; };
+		EBDE53C31DB8C9B800131E02 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ViewControllers/Main/MainViewController.xib; sourceTree = "<group>"; };
+		EBDE53C81DB8D12100131E02 /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShapeView.swift; path = Views/ShapeView/ShapeView.swift; sourceTree = "<group>"; };
+		EBDE53CC1DB8F0A100131E02 /* PointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB6DACD91DB9BA8800C2FEC7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EB6DACDA1DB9BAB700C2FEC7 /* BezierPath.swift */,
+				EB63569E1DBFDE5A0029EDEC /* Path.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		EB6DACDC1DB9C0DE00C2FEC7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EB6DACDD1DB9C11B00C2FEC7 /* UIColor+Random Color.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		EBDE53A21DB8C89900131E02 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +81,58 @@
 		EBDE53AD1DB8C89900131E02 /* BezierCurve */ = {
 			isa = PBXGroup;
 			children = (
+				EBDE53C01DB8C96F00131E02 /* View Controllers */,
+				EBDE53C61DB8CE0A00131E02 /* View */,
+				EB6DACDC1DB9C0DE00C2FEC7 /* Extension */,
+				EB6DACD91DB9BA8800C2FEC7 /* Helper */,
 				EBDE53AE1DB8C89900131E02 /* AppDelegate.swift */,
-				EBDE53B01DB8C89900131E02 /* ViewController.swift */,
-				EBDE53B21DB8C89900131E02 /* Main.storyboard */,
 				EBDE53B51DB8C89900131E02 /* Assets.xcassets */,
 				EBDE53B71DB8C89900131E02 /* LaunchScreen.storyboard */,
 				EBDE53BA1DB8C89900131E02 /* Info.plist */,
 			);
 			path = BezierCurve;
+			sourceTree = "<group>";
+		};
+		EBDE53C01DB8C96F00131E02 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE53C11DB8C97D00131E02 /* Main */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EBDE53C11DB8C97D00131E02 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE53C21DB8C9B800131E02 /* MainViewController.swift */,
+				EBDE53C31DB8C9B800131E02 /* MainViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		EBDE53C61DB8CE0A00131E02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE53CB1DB8F07D00131E02 /* Point */,
+				EBDE53C71DB8D0EE00131E02 /* Shape */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EBDE53C71DB8D0EE00131E02 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE53C81DB8D12100131E02 /* ShapeView.swift */,
+			);
+			name = Shape;
+			sourceTree = "<group>";
+		};
+		EBDE53CB1DB8F07D00131E02 /* Point */ = {
+			isa = PBXGroup;
+			children = (
+				EBDE53CC1DB8F0A100131E02 /* PointView.swift */,
+			);
+			name = Point;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +167,7 @@
 				TargetAttributes = {
 					EBDE53AA1DB8C89900131E02 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XMWCW9ZJ6W;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,8 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBDE53B91DB8C89900131E02 /* LaunchScreen.storyboard in Resources */,
+				EBDE53C51DB8C9B800131E02 /* MainViewController.xib in Resources */,
 				EBDE53B61DB8C89900131E02 /* Assets.xcassets in Resources */,
-				EBDE53B41DB8C89900131E02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +208,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBDE53B11DB8C89900131E02 /* ViewController.swift in Sources */,
+				EBDE53C91DB8D12100131E02 /* ShapeView.swift in Sources */,
+				EB63569F1DBFDE5A0029EDEC /* Path.swift in Sources */,
+				EB6DACDE1DB9C11B00C2FEC7 /* UIColor+Random Color.swift in Sources */,
+				EB6DACDB1DB9BAB700C2FEC7 /* BezierPath.swift in Sources */,
+				EBDE53C41DB8C9B800131E02 /* MainViewController.swift in Sources */,
 				EBDE53AF1DB8C89900131E02 /* AppDelegate.swift in Sources */,
+				EBDE53CD1DB8F0A100131E02 /* PointView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EBDE53B21DB8C89900131E02 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EBDE53B31DB8C89900131E02 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EBDE53B71DB8C89900131E02 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -260,6 +329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XMWCW9ZJ6W;
 				INFOPLIST_FILE = BezierCurve/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.my.niksemvcorp.BezierCurve;
@@ -272,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XMWCW9ZJ6W;
 				INFOPLIST_FILE = BezierCurve/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.my.niksemvcorp.BezierCurve;
@@ -299,6 +370,7 @@
 				EBDE53BF1DB8C89900131E02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
